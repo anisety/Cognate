@@ -1,15 +1,19 @@
 # Getting Started with Cognate
 
-## Backend
+## Backend (FastAPI)
 - Python 3.10+
-- FastAPI
-- Install dependencies: `pip install fastapi uvicorn`
-- Run: `uvicorn backend.main:app --reload`
+- Install dependencies: `pip install -r backend-fastapi/requirements.txt`
+- Run: `uvicorn backend-fastapi.main:app --reload`
 
-## Frontend (Web)
+## Backend (Flask)
+- Python 3.10+
+- Install dependencies: `pip install -r backend-flask/requirements.txt`
+- Run: `flask --app backend-flask/main run`
+
+## Frontend (Next.js)
 - Node.js 18+
-- Install: `npm install` in `frontend/`
-- Run: `npm start`
+- Install: `npm install` in `web-nextjs/`
+- Run: `npm run dev`
 
 ## Desktop (PyQt6)
 - Python 3.10+
@@ -18,5 +22,17 @@
 
 ## Mobile (React Native)
 - Node.js 18+, Expo CLI
-- Install: `npm install -g expo-cli` and `npm install` in `mobile/`
+- Install: `npm install` in `mobile-react-native/`
 - Run: `expo start`
+
+## Mobile (Kotlin)
+- Android Studio
+- Open `mobile-kotlin` as a project.
+
+## Database
+- PostgreSQL
+- See `database/schema.sql` for the initial schema.
+
+## DevOps
+- Docker: `docker build -t cognate .`
+- Azure DevOps: See `devops/azure-pipelines.yml`

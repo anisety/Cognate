@@ -10,8 +10,12 @@ Cognate is an AI-powered, personalized learning ecosystem for adaptive study, ca
 - Gamified analytics and dashboards
 
 ## Tech Stack
-- Backend: Python (FastAPI), GPT-4, PostgreSQL/MongoDB
-- Frontend: React + TailwindCSS, PyQt6, React Native
+- **Backend**: Python (FastAPI, Flask), TensorFlow, Pandas
+- **Frontend**: Next.js (React) + TailwindCSS, PyQt6
+- **Mobile**: React Native, Kotlin
+- **Database**: PostgreSQL / MongoDB
+- **DevOps/Cloud**: Docker, GitHub Actions, Azure DevOps, GCP, AWS
+- **Testing**: PyTest
 
 ## Getting Started
 See `docs/` for setup instructions for each platform.

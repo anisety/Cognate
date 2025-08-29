@@ -1,0 +1,17 @@
+# Placeholder for Azure DevOps pipeline
+# azure-pipelines.yml
+
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo "Setting up CI/CD for Cognate..."
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo "Installing dependencies..."
+    # Add build, test, and deployment steps here
+  displayName: 'Run a multi-line script'
