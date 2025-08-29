@@ -3,3 +3,7 @@ uvicorn
 pandas
 tensorflow
 scikit-learn
+pydantic
+sqlalchemy
+psycopg2-binary
+
